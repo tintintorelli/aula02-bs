@@ -1,0 +1,41 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+:root {
+    --color-blue-700: #006;
+    --color-light-100: #fff;
+}
+
+body {
+font-family: montserrat;
+}
+
+.login-icon {
+    font-size: 64px;
+    color: var(--color-light-100);
+}
+
+
+.login-header {
+    width: 100%;
+    background-color: var(--color-blue-700);
+    display: flex;
+    color: var(--color-light-100);
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+.link-text {
+    text-decoration: none;
+    color: var(--color-blue-700);
+    margin: 0 5px;
+    font-size: 600;
+}
+.link-icon {
+    font-size: 22px;
+    margin-right: 10px;
+}
